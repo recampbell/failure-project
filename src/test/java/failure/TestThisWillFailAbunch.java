@@ -17,16 +17,19 @@ public class TestThisWillFailAbunch {
          assertTrue("I expected this to pass!", false);
     }
 
+    @Ignore
     @Test
     public void aFailingTest3() {
          assertTrue("I expected this to pass!", false);
     }
 
+    @Ignore
     @Test
     public void aFailingTest4() {
          assertTrue("I expected this to pass!", false);
     }
 
+    @Ignore
     @Test
     public void aNewFailingTest31() {
          assertTrue("I expected this to pass!", false);
