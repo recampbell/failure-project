@@ -28,6 +28,16 @@ public class TestThisWillFailAbunch {
     }
 
     @Test
+    public void aNewFailingTest31() {
+         assertTrue("I expected this to pass!", false);
+    }
+
+    @Test
+    public void aNotherNewFailingTest4() {
+         assertTrue("I expected this to pass!", false);
+    }
+
+    @Test
     public void aFailingTest5() {
          assertTrue("I expected this to pass!", false);
     }
