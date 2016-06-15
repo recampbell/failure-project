@@ -2,6 +2,7 @@ package failure;
 
 import static org.junit.Assert.*;
 
+import org.junit.Ignore;
 import org.junit.Test;
 
 public class TestThisWillFailAbunch {
@@ -10,6 +11,7 @@ public class TestThisWillFailAbunch {
          assertTrue("I expected this to pass!", false);
     }
 
+    @Ignore
     @Test
     public void aFailingTest2() {
          assertTrue("I expected this to pass!", false);
@@ -33,5 +35,15 @@ public class TestThisWillFailAbunch {
     @Test
     public void aFailingTest6() {
          assertTrue("I expected this to pass!", false);
+    }
+
+    @Test
+    public void aPassingTest3() {
+         assertTrue("Success!", true);
+    }
+
+    @Test
+    public void aPassingTest4() {
+         assertTrue("Success!", true);
     }
 }
