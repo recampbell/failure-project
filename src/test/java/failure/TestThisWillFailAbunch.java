@@ -9,11 +9,11 @@ public class TestThisWillFailAbunch {
 
     @Test
     public void aPassingTest3() {
-         assertTrue("Success!", true);
+         assertTrue("Success!", false);
     }
 
     @Test
     public void aPassingTest4() {
-         assertTrue("Success!", true);
+         assertTrue("Success!", false);
     }
 }
