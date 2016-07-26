@@ -32,7 +32,7 @@ public class TestThisWillFailAbunch {
     @Ignore
     @Test
     public void aNewFailingTest31() {
-         assertTrue("I expected this to pass!", true);
+         assertTrue("I expected this to pass!", false);
     }
 
     @Test
