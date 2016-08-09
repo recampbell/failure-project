@@ -3,7 +3,7 @@ node {
   checkout scm
   
   stage 'Build'
-
+      echo "build"
   
       sh "mvn clean install -B -DcleanNode -Dmaven.test.failure.ignore"
       stage 'Archive'
