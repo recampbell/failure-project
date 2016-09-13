@@ -19,7 +19,7 @@ public class TestThisWillFailAbunch {
 
     @Test
     public void aFailingTest3() {
-         assertTrue("Yikes!", true);
+         assertTrue("Yikes!", false);
     }
 
     //@Ignore
