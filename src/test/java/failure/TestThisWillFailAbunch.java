@@ -11,7 +11,6 @@ public class TestThisWillFailAbunch {
          assertTrue("I expected this to pass!", true);
     }
 
-    @Ignore
     @Test
     public void aFailingTest2() {
          assertTrue("I expected this to pass!", true);
