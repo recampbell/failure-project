@@ -1,3 +1,5 @@
+// lets try block scoped
+
 node {
   stage('Checkout') {
     checkout scm   
