@@ -2,7 +2,7 @@ node {
   stage 'Checkout'
   checkout scm
   
-  stage 'Build'
+  stage 'Build It!'
   def mvnHome = tool 'M3'
   
   try {
